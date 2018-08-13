@@ -61,9 +61,9 @@ function createRock(x) {
   // Hmmm, why would we have used `var` here?
   var top = 0
 
-  rock.style.top = top
+  rock.style.top = `${top}px`
 
-function moveRock() {
+  function moveRock() {
     rock.style.top = `${top += 2}px`
     if (checkCollision(rock)) {
      endGame();
