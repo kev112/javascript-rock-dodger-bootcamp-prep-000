@@ -101,12 +101,19 @@ function moveDodger(e) {
 
 
    if (e.which == '37') {
+<<<<<<< HEAD
      e.preventDefault();
      e.stopPropagation();
      moveDodgerLeft();
    } else if (e.which == '39') {
      e.preventDefault();
      e.stopPropagation();
+=======
+     e.preventDefault()
+     moveDodgerLeft();
+   } else if (e.which == '39') {
+     e.preventDefault()
+>>>>>>> e459ff07919e9575697958e819003d82fc045676
      moveDodgerRight();
    }
 }
