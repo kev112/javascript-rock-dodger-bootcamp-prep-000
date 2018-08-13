@@ -91,6 +91,7 @@ function createRock(x) {
 function endGame() {
   ROCKS.forEach(rock => rock.remove());
   window.clearInterval(gameInterval)
+  START.style.display = 'block'
 }
 
 function moveDodger(e) {
